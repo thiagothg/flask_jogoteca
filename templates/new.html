@@ -1,5 +1,5 @@
 {% extends 'template.html' %} {% block content %}
-<form method="POST" action="/create">
+<form method="POST" action="{{ url_for('create') }}">
   <fieldset>
     <div class="form-group">
       <label for="name">Nome</label>
